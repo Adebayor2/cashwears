@@ -1,9 +1,7 @@
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
 import Hero from "../components/ui/Hero"
-import SectionTitle from "../components/ui/SectionTitle"
-import ProductCard from "../components/ui/ProductCard"
-import products from "../data/products"
+import Product from "./Product"
 
 
   function Home() {
@@ -14,18 +12,7 @@ import products from "../data/products"
       <Hero />
 
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4">
-          <SectionTitle
-            title="Featured Collection"
-            subtitle="Discover premium fashion pieces curated for modern streetwear lovers."
-          />
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </div>
+       <Product/>
       </section>
 
       <section className="bg-black text-white py-20">

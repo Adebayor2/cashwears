@@ -24,6 +24,9 @@ function Navbar() {
           <Link to="/contact" className="hover:text-gray-500 transition">
             Contact
           </Link>
+           <Link to="/contact" className="hover:text-gray-500 transition">
+            Products
+          </Link>
 
           <a
             href="https://wa.me/2348066186996"
