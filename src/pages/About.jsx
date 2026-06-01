@@ -25,7 +25,7 @@ function About() {
             <img
               src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop"
               alt="Fashion"
-              className="rounded-3xl h-[600px] object-cover w-full"
+              className="rounded-3xl h-100 object-cover w-full"
             />
           </div>
 
@@ -46,7 +46,7 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-black text-white py-20">
+      <section className="bg-gray-100 text-black py-20">
         <div className="max-w-5xl mx-auto text-center px-4">
           <h2 className="text-4xl font-bold mb-6">
             Fashion Designed For Confidence

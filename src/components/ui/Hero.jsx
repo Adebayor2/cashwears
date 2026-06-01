@@ -1,18 +1,18 @@
 function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl  mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <p className="uppercase tracking-[6px] text-gray-500 mb-4">
             New Collection
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-            Wear Confidence.
+          <h1 className="lg:text-7xl text-black md:text-6xl font-black leading-tight mb-6">
+               Wear Confidence.
             <br />
-            Define Your Style.
+          <span className="text-gray-600">  Define Your Style.</span>
           </h1>
-
+   
           <p className="text-gray-600 text-lg mb-8 max-w-lg">
             Modern streetwear crafted for comfort, confidence, and premium
             everyday fashion.

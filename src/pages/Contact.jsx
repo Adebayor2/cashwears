@@ -48,7 +48,7 @@ function Contact () {
             </form>
           </div>
 
-          <div className="bg-black text-white rounded-3xl p-10 flex flex-col justify-center">
+          <div className="bg-gray-100 text-black rounded-2xl p-10 flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
 
             <a

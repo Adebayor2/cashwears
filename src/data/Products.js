@@ -1,4 +1,4 @@
-const products = [
+const Products = [
   {
     id: 1,
     name: "white tee",
@@ -88,4 +88,4 @@ const products = [
   
 ]
 
-export default products
+export default Products

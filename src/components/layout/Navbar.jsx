@@ -24,7 +24,7 @@ function Navbar() {
           <Link to="/contact" className="hover:text-gray-500 transition">
             Contact
           </Link>
-           <Link to="/contact" className="hover:text-gray-500 transition">
+           <Link to="/products" className="hover:text-gray-500 transition">
             Products
           </Link>
 
@@ -57,6 +57,9 @@ function Navbar() {
 
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
             Contact
+          </Link>
+            <Link to="/products" className="hover:text-gray-500 transition">
+            Products
           </Link>
 
           <a
