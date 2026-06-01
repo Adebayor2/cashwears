@@ -3,7 +3,6 @@ import Footer from "../components/layout/Footer"
 import Hero from "../components/ui/Hero"
 import SectionTitle from "../components/ui/SectionTitle"
 import ProductCard from "../components/ui/ProductCard"
-
 import products from "../data/products"
 
 
@@ -67,7 +66,7 @@ import products from "../data/products"
          
 
             <button className="bg-black text-white px-8 w-100 py-4 rounded-full hover:bg-gray-800 transition">
-              Shopnow
+              Shop Now
             </button>
           </div>
         </div>
