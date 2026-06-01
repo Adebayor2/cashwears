@@ -2,14 +2,14 @@ import { Link } from "react-router-dom"
 
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gray-100">
-      <div className="max-w-7xl  mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <section className="min-h-screen flex items-center bg-gray-100 ">
+      <div className="lg:max-w-7xl md:w-7xl py-6  mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <p className="uppercase tracking-[6px] text-gray-500 mb-4">
             New Collection
           </p>
 
-          <h1 className="lg:text-7xl text-black md:text-6xl font-black leading-tight mb-6">
+          <h1 className="text-5xl lg:text-7xl text-black md:text-6xl sm:5xl font-black leading-tight mb-6">
                Wear Confidence.
             <br />
           <span className="text-gray-600">  Define Your Style.</span>
