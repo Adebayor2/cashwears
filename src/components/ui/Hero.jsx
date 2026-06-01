@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-gray-100">
@@ -27,12 +29,13 @@ function Hero() {
               Shop Collection
             </a>
 
-            <a
-              href="/about"
+            <Link
+              to="/about"
+              
               className="border border-black px-8 py-4 rounded-full hover:bg-black hover:text-white transition"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
 
